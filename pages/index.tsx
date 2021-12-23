@@ -1,8 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import profileimg from "../public/images/lms.png";
 
 export default function Home() {
+
+  let francis : string = 'chào bạn Francis nè';
+
   return (
     <div className={styles.container}>
       <Head>
@@ -13,8 +17,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js! {francis} </a>
         </h1>
+        <Image src={profileimg} alt="picture" />
 
         <p className={styles.description}>
           Get started by editing{" "}
@@ -46,7 +51,7 @@ export default function Home() {
           >
             <h2>Deploy &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Instantly deploy your Next.js site to a public URL with Vercels.
             </p>
           </a>
         </div>
