@@ -9,6 +9,7 @@ export default function Admin() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
         <h1> update fun </h1>
+        <h3> Comming soon Nextjs </h3>
         </div>
     )
 }
