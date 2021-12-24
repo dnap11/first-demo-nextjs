@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import profileimg from "../public/images/lms.png";
+import styles from "~styles/Home.module.css";
+import profileimg from "~src/../public/images/lms.png";
 
 export default function Home() {
-
-  let francis : string = 'chào bạn Francis nè';
+  let francis: string = "chào bạn Francis nè";
 
   return (
     <div className={styles.container}>
